@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'phdc'
-set :repo_url, 'git@example.com:toomuchpete/phdc.git'
+set :repo_url, 'https://github.com/toomuchpete/phdc.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
