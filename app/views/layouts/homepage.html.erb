@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="Pete Holiday lead engineer conference speaker">
+    <link rel="icon" type="images/ico" href=""/>
+    <title>Pete Holiday</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        html {
+            background: transparent url(<%= asset_path 'background.png' %>) repeat-y;
+            background-size: 100% auto;
+        }
+    </style>
+</head>
+
+<body id="home-page">
+    <header id="masthead" class="home-masthead">
+        <div class="container">
+            <div id="profile-pic-bg">
+                <%= image_tag "peteholiday.jpg", alt: 'Pete Holiday', id: 'profile-pic' %>
+            </div>
+            <h1>Pete Holiday</h1>
+            <h2>Software Engineer and All-Around Good Guy</h2>
+        </div>
+    </header>
+    <section id="content">
+        <div id="main-content">
+            <div class="container">
+                <%= yield %>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <nav class="navbar" id="home-menu">
+            <ul class="nav navbar-nav">
+                <li>
+                    <%=link_to '#' do %>
+                        <div class="home-menu-icon"><%=fa_icon 'street-view 3x'%></div>
+                        About
+                    <%end%>
+                </li>
+                <li>
+                    <%=link_to '#' do %>
+                        <div class="home-menu-icon"><%=fa_icon 'university 3x'%></div>
+                        CV
+                    <%end%>
+                </li>
+                <li>
+                    <%=link_to '#' do %>
+                        <div class="home-menu-icon"><%=fa_icon 'paragraph 3x'%></div>
+                        Blog
+                    <%end%>
+                </li>
+                <li>
+                    <%=link_to '#' do %>
+                        <div class="home-menu-icon"><%=fa_icon 'lightbulb-o 3x'%></div>
+                        Projects
+                    <%end%>
+                </li>
+                <li>
+                    <%=link_to '#' do %>
+                        <div class="home-menu-icon"><%=fa_icon 'comment 3x'%></div>
+                        Contact
+                    <%end%>
+                </li>
+            </dul>
+        </nav>
+    </div>
+    <footer id="site-footer" role="footer">
+        <div id="footer-bottom">
+            <div class="container">
+                <p id="copyright">&copy;2015 Pete Holiday</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
