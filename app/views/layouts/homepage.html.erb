@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,13 +51,13 @@
                     <%end%>
                 </li>
                 <li>
-                    <%=link_to '#' do %>
+                    <%=link_to cv_path do %>
                         <div class="home-menu-icon"><%=fa_icon 'university 3x'%></div>
                         CV
                     <%end%>
                 </li>
                 <li>
-                    <%=link_to '#' do %>
+                    <%=link_to '/blog', data: { no_turbolink: true } do %>
                         <div class="home-menu-icon"><%=fa_icon 'paragraph 3x'%></div>
                         Blog
                     <%end%>

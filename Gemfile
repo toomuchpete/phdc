@@ -23,6 +23,7 @@ gem 'github-markup'
 gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails'
 gem 'figaro'
+gem 'twitter'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
