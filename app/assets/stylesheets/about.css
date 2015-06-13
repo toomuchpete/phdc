@@ -1,13 +1,23 @@
-.cv-edu {
+.cv-edu, .cv-employment, .cv-skills {
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .cv-edu .institution {
     font-style: italic;
 }
 
-.cv-edu p {
+.cv-edu p, .cv-employment p, .cv-skills p {
     font-size: 90%;
     margin: 8px;
     color: #909090;
+}
+
+.cv-employment .employed-period {
+    font-style: italic;
+    text-align: right;
+}
+
+.cv-employment .employer {
+    border-bottom: 1px solid #f0f0f0;
 }
