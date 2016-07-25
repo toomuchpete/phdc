@@ -21,3 +21,19 @@
 .cv-employment .employer {
     border-bottom: 1px solid #f0f0f0;
 }
+
+dl.contact_methods {
+    margin-bottom: 10px;
+}
+
+dl.contact_methods dt {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+dl.contact_methods dd {
+    padding-left: 25px;
+    font-size: 90%;
+    margin: 8px;
+    color: #909090;
+}
