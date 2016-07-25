@@ -37,3 +37,17 @@ dl.contact_methods dd {
     margin: 8px;
     color: #909090;
 }
+
+#content #main-content .intro-blurb p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin-bottom: 2.0em;
+}
+
+.intro-blurb .emphasis {
+    font-weight: bold;
+}
+
+#hire-me .more-info div {
+    text-align: center;
+}

@@ -1,9 +1,13 @@
 class AboutController < ApplicationController
     def cv
-        @page_title = "What I've Done"
+        @page_title = "Some Places I've Worked"
     end
 
     def contact
-        @page_title = "Contact Me"
+        @page_title = "Let's Get In Touch!"
+    end
+
+    def hire
+        @page_title = "Let's Be Co-workers!"
     end
 end
