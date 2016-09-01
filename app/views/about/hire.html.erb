@@ -20,25 +20,19 @@
         I'm looking for a place where I can help a team and its engineers to grow. I want to build cool products, impact people,
         and learn from more experienced engineering leadership.
       </p>
-      <p>Learn more about me:</p>
+      <p>Learn more about me or get in touch!</p>
     </div>
   </div>
 
   <div class="more-info row">
-    <div class="col-xs-offset-3 col-xs-2">
-      <%=link_to '#' do %>
-        <div class="home-menu-icon"><%=fa_icon 'lightbulb-o 3x'%></div>
-        My Skills
-      <%end%>
-    </div>
-    <div class="col-xs-2">
-      <%=link_to 'cv' do %>
+    <div class="col-xs-offset-3 col-xs-3">
+      <%=link_to experience_path do %>
         <div class="home-menu-icon"><%=fa_icon 'list 3x'%></div>
-        Work Experience
+        Experience
       <%end%>
     </div>
-    <div class="col-xs-2">
-      <%=link_to 'contact' do %>
+    <div class="col-xs-3">
+      <%=link_to contact_path do %>
         <div class="home-menu-icon"><%=fa_icon 'comment 3x'%></div>
         Contact
       <%end%>

@@ -1,5 +1,5 @@
 class AboutController < ApplicationController
-    def cv
+    def experience
         @page_title = "Some Places I've Worked"
     end
 
@@ -9,5 +9,9 @@ class AboutController < ApplicationController
 
     def hire
         @page_title = "Let's Be Co-workers!"
+    end
+
+    def skills
+        @page_title = "Some Things I'm Good At"
     end
 end
